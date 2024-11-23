@@ -1,0 +1,11 @@
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\bin\Debug\net8.0\BooksApplication.Domain.deps.json
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\bin\Debug\net8.0\BooksApplication.Domain.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\bin\Debug\net8.0\BooksApplication.Domain.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.AssemblyInfoInputs.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.AssemblyInfo.cs
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.csproj.CoreCompileInputs.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\refint\BooksApplication.Domain.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\BooksApplication.Domain.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication.Domain\obj\Debug\net8.0\ref\BooksApplication.Domain.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MAvIaPEn4OQcHx3K6RMbDnkJkKiRTGd9QP2mSuN8SfY=",
+  "Source": "BooksApplication.Web",
+  "BasePath": "_content/BooksApplication.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,17 @@
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Infrastructure.deps.json
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Infrastructure.runtimeconfig.json
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Infrastructure.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Infrastructure.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Domain.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\bin\Debug\net8.0\BooksApplication.Domain.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.csproj.AssemblyReference.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.AssemblyInfoInputs.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.AssemblyInfo.cs
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.csproj.CoreCompileInputs.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.csproj.CopyComplete
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\refint\BooksApplication.Infrastructure.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\BooksApplication.Infrastructure.genruntimeconfig.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication.Infrastructure\obj\Debug\net8.0\ref\BooksApplication.Infrastructure.dll
