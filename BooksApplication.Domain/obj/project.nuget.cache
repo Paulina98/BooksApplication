@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IriXXv+diSlvh7Nkqib5GYumNT10WjQJ7n87aOfE8lvid5Sw2MseqGgwYh0UZZM3y/nvxwtJfETqVFj6bf72FA==",
+  "dgSpecHash": "Auf4X7hQ/yb6LW98SJXeMXLPFBamkhNPpwtSpMLtdYA5L4ldAvcOsSEIzkdB2E2xKuLrgo64XK/eR/5LUH3hZQ==",
   "success": true,
   "projectFilePath": "C:\\p\\Nowy folder\\BooksApplication\\BooksApplication.Domain\\BooksApplication.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\paulina.jaworska\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\paulina.jaworska\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\paulina.jaworska\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

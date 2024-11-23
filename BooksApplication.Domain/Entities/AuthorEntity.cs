@@ -13,5 +13,16 @@ namespace BooksApplication.Domain.Entities
         public string LastName { get; set; }
 
         public ICollection<BookAuthorEntity> BookAuthors { get; set; } = new List<BookAuthorEntity>();
+
+        public static AuthorEntity Create(string firstName, string lastName)
+        {
+            var entity = new AuthorEntity
+            {
+                FirstName = firstName,
+                LastName = lastName
+            };
+
+            return entity;
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BooksApplication.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,18 @@ namespace BooksApplication.Domain.Entities
         public int Bookstand { get; set; }
         public int Shelf { get; set; }
         public ICollection<BookAuthorEntity> BookAuthors { get; set; } = new List<BookAuthorEntity>();
+
+        public static BookEntity Create(string title, double price, int bookstand, int shelf)
+        {
+            var entity = new BookEntity
+            {
+                Title = title,
+                Price = price,
+                Bookstand = bookstand,
+                Shelf = shelf
+            };
+
+            return entity;
+        }
     }
 }

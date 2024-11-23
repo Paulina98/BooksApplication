@@ -13,5 +13,16 @@ namespace BooksApplication.Domain.Entities
 
         public int AuthorId { get; set; }
         public AuthorEntity Author { get; set; }
+
+        public static BookAuthorEntity Create(int bookId, int authorId)
+        {
+            var entity = new BookAuthorEntity
+            {
+                BookId = bookId,
+                AuthorId = authorId
+            };
+
+            return entity;
+        }
     }
 }

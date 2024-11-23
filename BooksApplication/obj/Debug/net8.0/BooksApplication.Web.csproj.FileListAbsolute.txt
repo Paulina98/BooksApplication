@@ -40,6 +40,8 @@ C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplica
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Azure.Core.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Azure.Identity.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Humanizer.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\MediatR.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -179,8 +181,10 @@ C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\runtimes\bro
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Domain.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Infrastructure.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Models.dll
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Infrastructure.pdb
 C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Domain.pdb
+C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\BooksApplication.Models.pdb
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.csproj.AssemblyReference.cache
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.AssemblyInfoInputs.cache
@@ -188,6 +192,7 @@ C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplica
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.csproj.CoreCompileInputs.cache
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.sourcelink.json
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\staticwebassets.build.json
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\staticwebassets.development.json
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\staticwebassets\msbuild.BooksApplication.Web.Microsoft.AspNetCore.StaticWebAssets.props

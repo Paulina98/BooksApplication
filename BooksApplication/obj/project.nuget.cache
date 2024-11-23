@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bJn3fszTHMB2muByo1PIq7CSFSw6cIghnXeSxIVmYf3SF57/ksqXTdqd/Keezma80V8kijsFYM3htfluTuluUg==",
+  "dgSpecHash": "z7kXY9FwMnmtdRyLhywBqNe2DoiJz1iUIy5PfLPxuf5OGuv+icebyC4oLlmf7B/aqskqC/cZIDFBPXiQKA7cDg==",
   "success": true,
   "projectFilePath": "C:\\p\\Nowy folder\\BooksApplication\\BooksApplication\\BooksApplication.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\paulina.jaworska\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\paulina.jaworska\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
     "C:\\Users\\paulina.jaworska\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
