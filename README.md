@@ -1,0 +1,6 @@
+This application uses JWT to secure API endpoints. A valid JWT token must be included in the Authorization header of API requests.
+
+Token Format: Bearer <JWT-Token>
+
+Currently Token is hardcoded. To run application authorize with:
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwianRpIjoiNjlhNzFkYjMtOTYyMi00NmE1LWE3ZmYtNzYyNzY3YzM0ZjcwIiwicm9sZSI6ImFkbWluIiwiaXNzIjoieW91ci1hcHAiLCJhdWQiOiJ5b3VyLWFwcC11c2VycyIsImV4cCI6IjIwMjQtMTEtMjBUMTM6NDE6MDAuMDAwMDBaIn0.y2eXgkqU4doeJAk6CU11GbQnDof4yNcK1qOHb6Haj1g

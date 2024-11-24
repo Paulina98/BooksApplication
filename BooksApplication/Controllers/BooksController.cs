@@ -1,34 +1,37 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
-using BooksApplication.Domain.Entities;
-using BooksApplication.Models.Commands;
+﻿using BooksApplication.Models.Commands;
 using BooksApplication.Models.Queries;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-[Route("api/[controller]")]
-[ApiController]
-public class BooksController : ControllerBase
+namespace BooksApplication.Web.Controllers
 {
-    private readonly IMediator _mediator;
-
-    public BooksController(IMediator mediator)
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class BooksController : ControllerBase
     {
-        _mediator = mediator;
-    }
+        private readonly IMediator _mediator;
 
-    [HttpGet]
-    public async Task<IActionResult> GetBooks()
-    {
-        var query = new GetBooksQuery();
-        var books = await _mediator.Send(query);
-        return Ok(books);
-    }
+        public BooksController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> CreateBook([FromBody] CreateBookCommand command)
-    {
-        var result = await _mediator.Send(command);
+        [HttpGet]
+        public async Task<IActionResult> GetBooks()
+        {
+            var query = new GetBooksQuery();
+            var books = await _mediator.Send(query);
+            return Ok(books);
+        }
 
-        return Ok(result);
+        [HttpPost]
+        public async Task<IActionResult> CreateBook([FromBody] CreateBookCommand command)
+        {
+            var result = await _mediator.Send(command);
+
+            return Ok(result);
+        }
     }
 }

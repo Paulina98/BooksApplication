@@ -207,3 +207,4 @@ C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\refint\Books
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.pdb
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\BooksApplication.Web.genruntimeconfig.cache
 C:\p\Nowy folder\BooksApplication\BooksApplication\obj\Debug\net8.0\ref\BooksApplication.Web.dll
+C:\p\Nowy folder\BooksApplication\BooksApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
