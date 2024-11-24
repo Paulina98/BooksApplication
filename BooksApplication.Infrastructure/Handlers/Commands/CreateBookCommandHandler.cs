@@ -1,14 +1,7 @@
 ﻿using BooksApplication.Domain.Entities;
 using BooksApplication.Infrastructure.Handlers.Abstractions;
-using BooksApplication.Infrastructure.Repositories;
 using BooksApplication.Infrastructure.Repositories.Abstractions;
 using BooksApplication.Models.Commands;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BooksApplication.Infrastructure.Handlers.Commands
 {
@@ -60,8 +53,9 @@ namespace BooksApplication.Infrastructure.Handlers.Commands
             {
                 authorEntity = AuthorEntity.Create(firstName, lastName);
                 await authorRepository.AddAsync(authorEntity);
-                await unitOfWork.SaveChangesAsync();
             }
+            await unitOfWork.SaveChangesAsync();
+
 
             return authorEntity.Id;
         }

@@ -1,4 +1,5 @@
 ﻿using BooksApplication.Models.Queries.Abstractions;
+using System.ComponentModel.DataAnnotations;
 
 namespace BooksApplication.Models.Queries
 {
@@ -14,7 +15,9 @@ namespace BooksApplication.Models.Queries
         {
         }
 
+        [Required]
         public int CurrentPage { get; set; }
+        [Required]
         public int RowCount { get; set; }
     }
 }

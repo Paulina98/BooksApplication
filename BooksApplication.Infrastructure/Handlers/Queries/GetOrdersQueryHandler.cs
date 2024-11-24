@@ -24,7 +24,9 @@ namespace BooksApplication.Infrastructure.Handlers.Queries
         public async Task<IPagedResult<OrderModel>> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
         {
             var entities = orderRepository.GetAll();
+
             var orderedEntities = entities
+                .AsEnumerable()
                 .GroupBy(e => e.OrderId)
                 .Select(group => new OrderModel
                 {

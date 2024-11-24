@@ -23,7 +23,8 @@ namespace BooksApplication.Infrastructure.Pagination
                              .Take(pagedQuery.RowCount);
             }
 
-            var items = await query.Select(selector).ToListAsync();
+            var entities = query.Select(selector);
+            var items = await query.Select(selector).ToListAsync(); // (entities is IAsyncEnumerable<TEntity>) ? await entities.ToListAsync() : entities.ToList();
 
             var pagedResponse = new PagedResultModel<TResult>
             {

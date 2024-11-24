@@ -1,11 +1,4 @@
-﻿using BooksApplication.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BooksApplication.Domain.Entities
+﻿namespace BooksApplication.Domain.Entities
 {
     public class BookEntity
     {

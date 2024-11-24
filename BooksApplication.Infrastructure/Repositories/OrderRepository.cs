@@ -1,13 +1,6 @@
 ﻿using BooksApplication.Domain.Entities;
 using BooksApplication.Infrastructure.Context;
 using BooksApplication.Infrastructure.Repositories.Abstractions;
-using BooksApplication.Models;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BooksApplication.Infrastructure.Repositories
 {
