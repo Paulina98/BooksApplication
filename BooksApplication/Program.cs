@@ -2,24 +2,17 @@ using BooksApplication.Infrastructure.Context;
 using BooksApplication.Infrastructure.Repositories.Abstractions;
 using BooksApplication.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
-using BooksApplication.Models.Commands.Abstractions;
 using MediatR;
-using BooksApplication.Models.Commands;
 using BooksApplication.Infrastructure.Handlers.Commands;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using System.Security.Claims;
+using BooksApplication.Infrastructure.SeedData;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<BooksApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 
 builder.Services.AddAuthentication(options =>
 {
@@ -105,6 +98,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<BooksApplicationDbContext>();
+    await DbSeeder.SeedAsync(context);
+}
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

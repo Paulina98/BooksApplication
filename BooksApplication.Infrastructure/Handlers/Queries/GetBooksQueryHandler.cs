@@ -33,6 +33,7 @@ namespace BooksApplication.Infrastructure.Handlers.Queries
                 BookAuthors = book.BookAuthors
                     .Select(ba => new AuthorModel
                     {
+                        Id = ba.Author.Id,
                         FirstName = ba.Author.FirstName,
                         LastName = ba.Author.LastName
                     })
