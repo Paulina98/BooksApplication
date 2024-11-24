@@ -1,20 +1,19 @@
 ﻿using BooksApplication.Models.Abstractions;
 using BooksApplication.Models.Queries;
 using BooksApplication.Models.Queries.Abstractions;
-using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace BooksApplication.Infrastructure.Pagination
 {
     public static class Extensions
     {
-        public static async Task<IPagedResult<TResult>> ToPagedResult<TEntity, TResult>(
+        public static IPagedResult<TResult> ToPagedResult<TEntity, TResult>(
             this IQueryable<TEntity> query,
             IPagedQuery<TResult> pagedQuery,
             Expression<Func<TEntity, TResult>> selector,
             int startPagination = 1)
         {
-            var totalCount = await query.CountAsync();
+            var totalCount = query.Count();
             var pages = (totalCount + pagedQuery.RowCount - 1) / pagedQuery.RowCount;
 
             if (pagedQuery.CurrentPage > 0)
@@ -23,8 +22,7 @@ namespace BooksApplication.Infrastructure.Pagination
                              .Take(pagedQuery.RowCount);
             }
 
-            var entities = query.Select(selector);
-            var items = await query.Select(selector).ToListAsync(); // (entities is IAsyncEnumerable<TEntity>) ? await entities.ToListAsync() : entities.ToList();
+            var items = query.Select(selector).ToList();
 
             var pagedResponse = new PagedResultModel<TResult>
             {

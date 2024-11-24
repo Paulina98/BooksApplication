@@ -4,6 +4,6 @@ namespace BooksApplication.Infrastructure.Repositories.Abstractions
 {
     public interface IOrderRepository
     {
-        IQueryable<OrderEntity> GetAll();
+        Task<List<OrderEntity>> GetAllAsync();
     }
 }

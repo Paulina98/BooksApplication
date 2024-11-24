@@ -1,6 +1,7 @@
 ﻿using BooksApplication.Domain.Entities;
 using BooksApplication.Infrastructure.Context;
 using BooksApplication.Infrastructure.Repositories.Abstractions;
+using Microsoft.EntityFrameworkCore;
 
 namespace BooksApplication.Infrastructure.Repositories
 {
@@ -13,9 +14,9 @@ namespace BooksApplication.Infrastructure.Repositories
             this.context = context;
         }
 
-        public IQueryable<OrderEntity> GetAll()
+        public async Task<List<OrderEntity>> GetAllAsync()
         {
-            return context.Orders.AsQueryable();
+            return await context.Orders.ToListAsync();
         }
 
     }

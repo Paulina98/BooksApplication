@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BooksApplication.Models.Abstractions;
 using BooksApplication.Infrastructure.Pagination;
+using Microsoft.EntityFrameworkCore;
 
 namespace BooksApplication.Infrastructure.Handlers.Queries
 {
@@ -23,7 +24,7 @@ namespace BooksApplication.Infrastructure.Handlers.Queries
 
         public async Task<IPagedResult<OrderModel>> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
         {
-            var entities = orderRepository.GetAll();
+            var entities = await orderRepository.GetAllAsync();
 
             var orderedEntities = entities
                 .AsEnumerable()
@@ -41,7 +42,7 @@ namespace BooksApplication.Infrastructure.Handlers.Queries
                 .OrderBy(x => x.OrderId) 
                 .AsQueryable();
 
-            var pagedResult = await orderedEntities.ToPagedResult(query, x => new OrderModel
+            var pagedResult = orderedEntities.ToPagedResult(query, x => new OrderModel
             {
                 OrderId = x.OrderId,
                 OrderLines = x.OrderLines
